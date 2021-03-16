@@ -1,5 +1,3 @@
-![architecture](http://git.kdiwin.com:7990/projects/MICP/repos/infra/raw/images/_logo.png?at=refs%2Fheads%2Fkd-pages)
-
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
@@ -31,7 +29,7 @@ Let's enjoy cloud world ;-)
 
 - <b>Initialize automatically</b>
   - Install packages ( jq, pip3, aws, zip, docker, node modules )
-  - Unzip the resources ( lambda, converter .. etc )
+  - Unzip the resources ( lambda, application .. etc )
   - Set the aws account profile
 - <b>Synthesize automatically</b>
   - Generate the template files of stacks
@@ -44,19 +42,19 @@ Let's enjoy cloud world ;-)
 
 # Concept
 
-![concepts](http://git.kdiwin.com:7990/projects/MICP/repos/infra/raw/images/concept.png?at=refs%2Fheads%2Fkd-pages)
+![concepts](https://github.com/jgcman3/bravops/blob/images/bravops-concepts.png?raw=true)
 
 <br>
 
 # Architecture
 
-![architecture](http://git.kdiwin.com:7990/projects/MICP/repos/infra/raw/images/architecture.png?at=refs%2Fheads%2Fkd-pages)
+![architecture](https://github.com/jgcman3/bravops/blob/images/bravops-architecture.png?raw=true)
 
 <br>
 
 # Block Diagram
 
-![blockdiagram](http://git.kdiwin.com:7990/projects/MICP/repos/infra/raw/images/blockdiagram.png?at=refs%2Fheads%2Fkd-pages)
+![blockdiagram](https://github.com/jgcman3/bravops/blob/images/bravops-blockdiagram.png?raw=true)
 
 <br>
 
@@ -89,7 +87,7 @@ The elements that should be included in each package are as follows.<br>
 - <b>Application</b>
 
   - <b>release.txt :</b> Package released information such as git tag
-  - <b>converter.jar :</b> Application file
+  - <b>application.jar :</b> Application file
   - <b>Dockerfile : </b> Dockerfile for creating docker images
 
 <br>
